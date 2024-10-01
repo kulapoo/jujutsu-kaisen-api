@@ -5,7 +5,7 @@ async fn greet() -> impl Responder {
     format!("Welcome to the Jujutsu Kaisen API!")
 }
 
-#[tokio::main]  // Use Tokio as the async runtime
+#[tokio::main] // Use Tokio as the async runtime
 async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
         App::new()
