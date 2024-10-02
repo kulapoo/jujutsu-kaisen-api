@@ -1,14 +1,32 @@
 [package]
-name = "jujutsu-kaisen-api"
+name = "jjk-api"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "jjk-api"
+
 [dependencies]
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
+serde = { version = "1.0.163", features = ["derive"] }
+serde_json = "1.0.96"
 actix-web = "4.9.0"
-tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
-config = { version = "0.14", default-features = false, features = ["toml"] }
+tokio = { version = "1.34.0", features = ["macros", "rt-multi-thread"] }
+config = { version = "0.14.0", default-features = false, features = ["json"] }
+sqlx = { version = "0.7.2", default-features = false, features = [
+    "runtime-tokio-rustls",
+    "macros",
+    "postgres",
+    "uuid",
+    "chrono",
+    "migrate",
+] }
+uuid = { version = "1.4.1", features = ["v4"] }
+chrono = { version = "0.4.26", default-features = false, features = ["clock"] }
+secrecy = { version = "0.8", features = ["serde"] }
 
 [dev-dependencies]
 wiremock = "0.6.2"

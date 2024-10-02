@@ -40,3 +40,40 @@ You can install all the required development tools by running the provided insta
 - [cargo-audit](https://crates.io/crates/cargo-audit)
 - [cargo-tarpaulin](https://crates.io/crates/cargo-tarpaulin)
 - [pre-commit](https://pre-commit.com/)
+
+
+# Development
+
+## Setup
+
+- Install the required dev dependencies by running the `install_dev_tools.sh` script:
+```bash
+./scripts/install_dev_tools.sh
+```
+
+- create a `.env` file in the root of the project and add the following:
+```bash
+DATABASE_URL=postgres://postgres:password@localhost/jjk
+```
+
+- Initialize the database by running the `init_db.sh` script:
+```bash
+./scripts/init_db.sh
+```
+
+
+## Running the server
+
+- Run the server using the following command:
+```bash
+cargo run
+```
+
+
+## SQL commands
+
+
+### connect to postgres
+```bash
+psql -h localhost -p 5432 -U postgres -d jjk
+```
