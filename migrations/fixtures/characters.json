@@ -1,0 +1,274 @@
+{
+  "characters": [
+      {
+          "id": "01889e24-baa1-7ddf-8dd5-8f3de8a9c86e",
+          "name": "Gojo",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/e/ef/Satoru_Gojo_%28Anime_2%29.png/revision/latest/scale-to-width-down/153?cb=20240622022211",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa2-7dde-9dd5-1a3de8a9b47f",
+          "name": "Yuji",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6f/Yuji_Itadori_%28Anime_2%29.png/revision/latest/scale-to-width-down/350?cb=20240621133654",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa3-7dde-9dd5-1b3de8a9b47f",
+          "name": "Megumi",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/dd/Megumi_Fushiguro_%28Anime_2%29.png/revision/latest/scale-to-width-down/159?cb=20240621133931",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa4-7dde-9dd5-1c3de8a9b47f",
+          "name": "Maki",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Female",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/3/39/Maki_Zenin_%28Volume_22%29.png/revision/latest/scale-to-width-down/337?cb=20230206185342",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa5-7dde-9dd5-1d3de8a9b47f",
+          "name": "Atsuya Kusakabe",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/9/9f/Atsuya_Kusakabe_%28Anime_2%29.png/revision/latest/scale-to-width-down/289?cb=20231124131252",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa6-7dde-9dd5-1e3de8a9b47f",
+          "name": "Yuta",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/5e/Yuta_Okkotsu_%28Anime%29.png/revision/latest/scale-to-width-down/266?cb=20231228170059",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa7-7dde-9dd5-1f3de8a9b47f",
+          "name": "Higuruma",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/b/b6/Hiromi_Higuruma.png/revision/latest/scale-to-width-down/251?cb=20211109010256",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa8-7dde-9dd5-1g3de8a9b47f",
+          "name": "Nobara",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Female",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/dd/Nobara_Kugisaki_%28Anime_2%29.png/revision/latest/scale-to-width-down/250?cb=20240621133809",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa9-7dde-9dd5-1h3de8a9b47f",
+          "name": "Toji",
+          "status": "Deceased",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/db/Toji_Fushiguro_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20221217105010",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa0-7dde-9dd5-1i3de8a9b47f",
+          "name": "Sukuna",
+          "status": "Deceased",
+          "species": "Cursed Spirit",
+          "kind": "Demon",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/8/85/Sukuna_%28Chapter_117%29.png/revision/latest/scale-to-width-down/342?cb=20210309183727",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baa1-7dde-9dd5-1j3de8a9b47f",
+          "name": "Kenjaku",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/2/2b/Kenjaku_%28Anime%29.png/revision/latest/scale-to-width-down/191?cb=20240618020107",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab0-7dde-9dd5-1k3de8a9b47f",
+          "name": "Yuki",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Female",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/49/Yuki_Tsukumo_%28Anime_2%29.png/revision/latest/scale-to-width-down/280?cb=20231221172040",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab1-7dde-9dd5-1l3de8a9b47f",
+          "name": "Choso",
+          "status": "Alive",
+          "species": "Cursed Spirit",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/1/1c/Choso_%28Anime_2%29.png/revision/latest/scale-to-width-down/267?cb=20230903192338",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab2-7dde-9dd5-1m3de8a9b47f",
+          "name": "Todo",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/79/Aoi_Todo_%28Anime%29.png/revision/latest/scale-to-width-down/218?cb=20240621022047",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab3-7dde-9dd5-1n3de8a9b47f",
+          "name": "Miwa",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Female",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/64/Kasumi_Miwa_%28Anime%29.png/revision/latest/scale-to-width-down/236?cb=20240621021537",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab4-7dde-9dd5-1o3de8a9b47f",
+          "name": "Panda",
+          "status": "Alive",
+          "species": "Cursed Corpse",
+          "kind": null,
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/2/2b/Panda_%28Anime_2%29.png/revision/latest/scale-to-width-down/350?cb=20211225181425",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab5-7dde-9dd5-1p3de8a9b47f",
+          "name": "Inomaki",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/c/cb/Toge_Inumaki_%28Anime_2%29.png/revision/latest/scale-to-width-down/129?cb=20240622024715",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab6-7dde-9dd5-1q3de8a9b47f",
+          "name": "Mahito",
+          "status": "Deceased",
+          "species": "Cursed Spirit",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/4e/Mahito_%28Anime%29.png/revision/latest/scale-to-width-down/208?cb=20240618013419",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab7-7dde-9dd5-1r3de8a9b47f",
+          "name": "Mei Mei",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Female",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/a/aa/Mai_Zenin_%28Anime%29.png/revision/latest/scale-to-width-down/250?cb=20231229173245",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab8-7dde-9dd5-1s3de8a9b47f",
+          "name": "Rika Orimoto",
+          "status": "Cursed Spirit",
+          "species": "Cursed Spirit",
+          "kind": "Vengeful Spirit",
+          "gender": "Female",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/d1/Suguru_Geto_%28Anime%29.png/revision/latest/scale-to-width-down/250?cb=20231229172152",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-bab9-7dde-9dd5-1t3de8a9b47f",
+          "name": "Shoko Ieiri",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Female",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6c/Junpei_Yoshino_%28Anime%29.png/revision/latest/scale-to-width-down/250?cb=20231229170515",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-baba-7dde-9dd5-1u3de8a9b47f",
+          "name": "Nanami Kento",
+          "status": "Deceased",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/44/Esou_%28Anime%29.png/revision/latest/scale-to-width-down/250?cb=20231229171432",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-babb-7dde-9dd5-1v3de8a9b47f",
+          "name": "Mai Zenin",
+          "status": "Deceased",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Female",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/54/Keiichi_Toudou_%28Anime%29.png/revision/latest/scale-to-width-down/250?cb=20231229172410",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-babc-7dde-9dd5-1w3de8a9b47f",
+          "name": "Suguru Geto",
+          "status": "Deceased",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/d1/Suguru_Geto_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20231229172152",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-babd-7dde-9dd5-1x3de8a9b47f",
+          "name": "Junpei Yoshino",
+          "status": "Deceased",
+          "species": "Human",
+          "kind": "Non-Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6c/Junpei_Yoshino_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20231229170515",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-babe-7dde-9dd5-1y3de8a9b47f",
+          "name": "Esou",
+          "status": "Deceased",
+          "species": "Cursed Spirit",
+          "kind": "Cursed Womb: Death Painting",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/44/Esou_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20231229171432",
+          "created_at": "2023-10-04T00:00:00"
+      },
+      {
+          "id": "01889e24-babf-7dde-9dd5-1z3de8a9b47f",
+          "name": "Keiichi Toudou",
+          "status": "Alive",
+          "species": "Human",
+          "kind": "Sorcerer",
+          "gender": "Male",
+          "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/54/Keiichi_Toudou_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20231229172410",
+          "created_at": "2023-10-04T00:00:00"
+      }
+  ]
+}

@@ -1,3 +1,6 @@
 pub mod configuration;
-pub mod controllers;
+mod controllers;
+pub mod error;
 pub mod startup;
+
+pub use controllers::*;

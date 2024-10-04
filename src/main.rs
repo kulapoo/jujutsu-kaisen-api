@@ -1,24 +1,19 @@
-use jjk_api::{configuration::get_configuration, startup::run};
-use secrecy::ExposeSecret;
-use sqlx::postgres::PgPool;
-use std::net::TcpListener;
+use jjk_api::{configuration::get_configuration, startup::Application};
 
 #[tokio::main]
-async fn main() -> std::io::Result<()> {
-    let configuration = get_configuration().expect("Failed to read configuration.");
-    let connection_pool =
-        PgPool::connect(configuration.database.connection_string().expose_secret())
-            .await
-            .expect("Failed to connect to Postgres.");
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    // let subscriber = get_subscriber("zero2prod".into(), "info".into(), std::io::stdout);
+    // init_subscriber(subscriber);
 
-    // Here we choose to bind explicitly to localhost, 127.0.0.1, for security
-    // reasons. This binding may cause issues in some environments. For example,
-    // it causes connectivity issues running in WSL2, where you cannot reach the
-    // server when it is bound to WSL2's localhost interface. As a workaround,
-    // you can choose to bind to all interfaces, 0.0.0.0, instead, but be aware
-    // of the security implications when you expose the server on all interfaces.
-    let address = format!("127.0.0.1:{}", configuration.application_port);
-    let listener = TcpListener::bind(address)?;
-    run(listener, connection_pool)?.await?;
+    let configuration = get_configuration().expect("Failed to read configuration.");
+    let application = Application::build(configuration.clone()).await?;
+    let application_task = tokio::spawn(application.run_until_stopped());
+    // let worker_task = tokio::spawn(run_worker_until_stopped(configuration));
+
+    // tokio::select! {
+    //     o = application_task => report_exit("API", o),
+    //     o = worker_task =>  report_exit("Background worker", o),
+    // };
+
     Ok(())
 }

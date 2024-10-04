@@ -1,0 +1,366 @@
+[
+    {
+        "character_id": "01889e24-baa1-7ddf-8dd5-8f3de8a9c86e",
+        "episode_id": "01889e25-baa1-7dde-8dd6-8f3de8a9a86a",
+        "episode_code": "S01E01",
+        "character_name": "Gojo",
+        "episode_name": "Ryomen Sukuna"
+    },
+    {
+        "character_id": "01889e24-baa1-7ddf-8dd5-8f3de8a9c86e",
+        "episode_id": "01889e25-baa5-7dde-8dd6-8f3de8a9a90e",
+        "episode_code": "S01E05",
+        "character_name": "Gojo",
+        "episode_name": "Cursed Womb Must Die -II-"
+    },
+    {
+        "character_id": "01889e24-baa1-7ddf-8dd5-8f3de8a9c86e",
+        "episode_id": "01889e25-baa7-7dde-8dd6-8f3de8a9a92a",
+        "episode_code": "S01E07",
+        "character_name": "Gojo",
+        "episode_name": "Assault"
+    },
+    {
+        "character_id": "01889e24-baa1-7ddf-8dd5-8f3de8a9c86e",
+        "episode_id": "01889e25-babc-7dde-8dd6-8f3de8a9a97f",
+        "episode_code": "S01E12",
+        "character_name": "Gojo",
+        "episode_name": "To You, Someday"
+    },
+    {
+        "character_id": "01889e24-baa1-7ddf-8dd5-8f3de8a9c86e",
+        "episode_id": "01889e25-bac8-7dde-8dd6-8f3de8a9a19a",
+        "episode_code": "S01E24",
+        "character_name": "Gojo",
+        "episode_name": "Accomplices"
+    },
+    {
+        "character_id": "01889e24-baa1-7ddf-8dd5-8f3de8a9c86e",
+        "episode_id": "01889e25-bacb-7dde-8dd6-8f3de8a9a22d",
+        "episode_code": "S02E03",
+        "character_name": "Gojo",
+        "episode_name": "Shibuya Incident"
+    },
+    {
+        "character_id": "01889e24-baa2-7dde-9dd5-1a3de8a9b47f",
+        "episode_id": "01889e25-baa1-7dde-8dd6-8f3de8a9a86a",
+        "episode_code": "S01E01",
+        "character_name": "Yuji",
+        "episode_name": "Ryomen Sukuna"
+    },
+    {
+        "character_id": "01889e24-baa2-7dde-9dd5-1a3de8a9b47f",
+        "episode_id": "01889e25-baa2-7dde-8dd6-8f3de8a9a87b",
+        "episode_code": "S01E02",
+        "character_name": "Yuji",
+        "episode_name": "For Myself"
+    },
+    {
+        "character_id": "01889e24-baa2-7dde-9dd5-1a3de8a9b47f",
+        "episode_id": "01889e25-baa3-7dde-8dd6-8f3de8a9a88c",
+        "episode_code": "S01E03",
+        "character_name": "Yuji",
+        "episode_name": "Girl of Steel"
+    },
+    {
+        "character_id": "01889e24-baa2-7dde-9dd5-1a3de8a9b47f",
+        "episode_id": "01889e25-baa5-7dde-8dd6-8f3de8a9a90e",
+        "episode_code": "S01E05",
+        "character_name": "Yuji",
+        "episode_name": "Cursed Womb Must Die -II-"
+    },
+    {
+        "character_id": "01889e24-baa2-7dde-9dd5-1a3de8a9b47f",
+        "episode_id": "01889e25-babc-7dde-8dd6-8f3de8a9a97f",
+        "episode_code": "S01E12",
+        "character_name": "Yuji",
+        "episode_name": "To You, Someday"
+    },
+    {
+        "character_id": "01889e24-baa2-7dde-9dd5-1a3de8a9b47f",
+        "episode_id": "01889e25-bac8-7dde-8dd6-8f3de8a9a19a",
+        "episode_code": "S01E24",
+        "character_name": "Yuji",
+        "episode_name": "Accomplices"
+    },
+    {
+        "character_id": "01889e24-baa2-7dde-9dd5-1a3de8a9b47f",
+        "episode_id": "01889e25-bac9-7dde-8dd6-8f3de8a9a20b",
+        "episode_code": "S02E01",
+        "character_name": "Yuji",
+        "episode_name": "Itadori's Extermination Mission"
+    },
+    {
+        "character_id": "01889e24-baa2-7dde-9dd5-1a3de8a9b47f",
+        "episode_id": "01889e25-bace-7dde-8dd6-8f3de8a9a25a",
+        "episode_code": "S02E06",
+        "character_name": "Yuji",
+        "episode_name": "Yuji's Betrayal"
+    },
+    {
+        "character_id": "01889e24-baa3-7dde-9dd5-1b3de8a9b47f",
+        "episode_id": "01889e25-baa3-7dde-8dd6-8f3de8a9a88c",
+        "episode_code": "S01E03",
+        "character_name": "Megumi",
+        "episode_name": "Girl of Steel"
+    },
+    {
+        "character_id": "01889e24-baa3-7dde-9dd5-1b3de8a9b47f",
+        "episode_id": "01889e25-baa5-7dde-8dd6-8f3de8a9a90e",
+        "episode_code": "S01E05",
+        "character_name": "Megumi",
+        "episode_name": "Cursed Womb Must Die -II-"
+    },
+    {
+        "character_id": "01889e24-baa3-7dde-9dd5-1b3de8a9b47f",
+        "episode_id": "01889e25-baa8-7dde-8dd6-8f3de8a9a93b",
+        "episode_code": "S01E08",
+        "character_name": "Megumi",
+        "episode_name": "Boredom"
+    },
+    {
+        "character_id": "01889e24-baa3-7dde-9dd5-1b3de8a9b47f",
+        "episode_id": "01889e25-babc-7dde-8dd6-8f3de8a9a97f",
+        "episode_code": "S01E12",
+        "character_name": "Megumi",
+        "episode_name": "To You, Someday"
+    },
+    {
+        "character_id": "01889e24-baa3-7dde-9dd5-1b3de8a9b47f",
+        "episode_id": "01889e25-bac6-7dde-8dd6-8f3de8a9a17d",
+        "episode_code": "S01E22",
+        "character_name": "Megumi",
+        "episode_name": "The Origin of Blind Obedience"
+    },
+    {
+        "character_id": "01889e24-baa3-7dde-9dd5-1b3de8a9b47f",
+        "episode_id": "01889e25-baca-7dde-8dd6-8f3de8a9a21c",
+        "episode_code": "S02E02",
+        "character_name": "Megumi",
+        "episode_name": "Shadow of the Nation"
+    },
+    {
+        "character_id": "01889e24-baa4-7dde-9dd5-1c3de8a9b47f",
+        "episode_id": "01889e25-baa9-7dde-8dd6-8f3de8a9a94c",
+        "episode_code": "S01E09",
+        "character_name": "Maki",
+        "episode_name": "Small Fry and Reverse Retribution"
+    },
+    {
+        "character_id": "01889e24-baa4-7dde-9dd5-1c3de8a9b47f",
+        "episode_id": "01889e25-baaa-7dde-8dd6-8f3de8a9a95d",
+        "episode_code": "S01E10",
+        "character_name": "Maki",
+        "episode_name": "Idle Transfiguration"
+    },
+    {
+        "character_id": "01889e24-baa4-7dde-9dd5-1c3de8a9b47f",
+        "episode_id": "01889e25-babe-7dde-8dd6-8f3de8a9a99b",
+        "episode_code": "S01E14",
+        "character_name": "Maki",
+        "episode_name": "Kyoto Sister School Exchange Event - Group Battle 0"
+    },
+    {
+        "character_id": "01889e24-baa4-7dde-9dd5-1c3de8a9b47f",
+        "episode_id": "01889e25-bacb-7dde-8dd6-8f3de8a9a22d",
+        "episode_code": "S02E03",
+        "character_name": "Maki",
+        "episode_name": "Shibuya Incident"
+    },
+    {
+        "character_id": "01889e24-baa8-7dde-9dd5-1g3de8a9b47f",
+        "episode_id": "01889e25-baa3-7dde-8dd6-8f3de8a9a88c",
+        "episode_code": "S01E03",
+        "character_name": "Nobara",
+        "episode_name": "Girl of Steel"
+    },
+    {
+        "character_id": "01889e24-baa8-7dde-9dd5-1g3de8a9b47f",
+        "episode_id": "01889e25-baa5-7dde-8dd6-8f3de8a9a90e",
+        "episode_code": "S01E05",
+        "character_name": "Nobara",
+        "episode_name": "Cursed Womb Must Die -II-"
+    },
+    {
+        "character_id": "01889e24-baa8-7dde-9dd5-1g3de8a9b47f",
+        "episode_id": "01889e25-babc-7dde-8dd6-8f3de8a9a97f",
+        "episode_code": "S01E12",
+        "character_name": "Nobara",
+        "episode_name": "To You, Someday"
+    },
+    {
+        "character_id": "01889e24-baa8-7dde-9dd5-1g3de8a9b47f",
+        "episode_id": "01889e25-bac8-7dde-8dd6-8f3de8a9a19a",
+        "episode_code": "S01E24",
+        "character_name": "Nobara",
+        "episode_name": "Accomplices"
+    },
+    {
+        "character_id": "01889e24-baa0-7dde-9dd5-1i3de8a9b47f",
+        "episode_id": "01889e25-baa1-7dde-8dd6-8f3de8a9a86a",
+        "episode_code": "S01E01",
+        "character_name": "Sukuna",
+        "episode_name": "Ryomen Sukuna"
+    },
+    {
+        "character_id": "01889e24-baa0-7dde-9dd5-1i3de8a9b47f",
+        "episode_id": "01889e25-baa6-7dde-8dd6-8f3de8a9a91f",
+        "episode_code": "S01E06",
+        "character_name": "Sukuna",
+        "episode_name": "After Rain"
+    },
+    {
+        "character_id": "01889e24-baa0-7dde-9dd5-1i3de8a9b47f",
+        "episode_id": "01889e25-babd-7dde-8dd6-8f3de8a9a98a",
+        "episode_code": "S01E13",
+        "character_name": "Sukuna",
+        "episode_name": "Tomorrow"
+    },
+    {
+        "character_id": "01889e24-baa0-7dde-9dd5-1i3de8a9b47f",
+        "episode_id": "01889e25-bac9-7dde-8dd6-8f3de8a9a20b",
+        "episode_code": "S02E01",
+        "character_name": "Sukuna",
+        "episode_name": "Itadori's Extermination Mission"
+    },
+    {
+        "character_id": "01889e24-baa0-7dde-9dd5-1i3de8a9b47f",
+        "episode_id": "01889e25-bacd-7dde-8dd6-8f3de8a9a24f",
+        "episode_code": "S02E05",
+        "character_name": "Sukuna",
+        "episode_name": "Ruptured Reality"
+    },
+    {
+        "character_id": "01889e24-bab1-7dde-9dd5-1l3de8a9b47f",
+        "episode_id": "01889e25-bac9-7dde-8dd6-8f3de8a9a20b",
+        "episode_code": "S02E01",
+        "character_name": "Choso",
+        "episode_name": "Itadori's Extermination Mission"
+    },
+    {
+        "character_id": "01889e24-bab1-7dde-9dd5-1l3de8a9b47f",
+        "episode_id": "01889e25-bacb-7dde-8dd6-8f3de8a9a22d",
+        "episode_code": "S02E03",
+        "character_name": "Choso",
+        "episode_name": "Shibuya Incident"
+    },
+    {
+        "character_id": "01889e24-bab4-7dde-9dd5-1o3de8a9b47f",
+        "episode_id": "01889e25-baa9-7dde-8dd6-8f3de8a9a94c",
+        "episode_code": "S01E09",
+        "character_name": "Panda",
+        "episode_name": "Small Fry and Reverse Retribution"
+    },
+    {
+        "character_id": "01889e24-bab4-7dde-9dd5-1o3de8a9b47f",
+        "episode_id": "01889e25-babe-7dde-8dd6-8f3de8a9a99b",
+        "episode_code": "S01E14",
+        "character_name": "Panda",
+        "episode_name": "Kyoto Sister School Exchange Event - Group Battle 0"
+    },
+    {
+        "character_id": "01889e24-bab4-7dde-9dd5-1o3de8a9b47f",
+        "episode_id": "01889e25-bac5-7dde-8dd6-8f3de8a9a16c",
+        "episode_code": "S01E21",
+        "character_name": "Panda",
+        "episode_name": "Jujutsu Koshien"
+    },
+    {
+        "character_id": "01889e24-bab6-7dde-9dd5-1q3de8a9b47f",
+        "episode_id": "01889e25-baa9-7dde-8dd6-8f3de8a9a94c",
+        "episode_code": "S01E09",
+        "character_name": "Mahito",
+        "episode_name": "Small Fry and Reverse Retribution"
+    },
+    {
+        "character_id": "01889e24-bab6-7dde-9dd5-1q3de8a9b47f",
+        "episode_id": "01889e25-baaa-7dde-8dd6-8f3de8a9a95d",
+        "episode_code": "S01E10",
+        "character_name": "Mahito",
+        "episode_name": "Idle Transfiguration"
+    },
+    {
+        "character_id": "01889e24-bab6-7dde-9dd5-1q3de8a9b47f",
+        "episode_id": "01889e25-bac2-7dde-8dd6-8f3de8a9a13f",
+        "episode_code": "S01E18",
+        "character_name": "Mahito",
+        "episode_name": "Sage"
+    },
+    {
+        "character_id": "01889e24-bab6-7dde-9dd5-1q3de8a9b47f",
+        "episode_id": "01889e25-bacc-7dde-8dd6-8f3de8a9a23e",
+        "episode_code": "S02E04",
+        "character_name": "Mahito",
+        "episode_name": "Shibuya Incident - Part 2"
+    },
+    {
+        "character_id": "01889e24-bab9-7dde-9dd5-1t3de8a9b47f",
+        "episode_id": "01889e25-baa5-7dde-8dd6-8f3de8a9a90e",
+        "episode_code": "S01E05",
+        "character_name": "Shoko Ieiri",
+        "episode_name": "Cursed Womb Must Die -II-"
+    },
+    {
+        "character_id": "01889e24-bab9-7dde-9dd5-1t3de8a9b47f",
+        "episode_id": "01889e25-baaa-7dde-8dd6-8f3de8a9a95d",
+        "episode_code": "S01E10",
+        "character_name": "Shoko Ieiri",
+        "episode_name": "Idle Transfiguration"
+    },
+    {
+        "character_id": "01889e24-babb-7dde-9dd5-1v3de8a9b47f",
+        "episode_id": "01889e25-babf-7dde-8dd6-8f3de8a9a10c",
+        "episode_code": "S01E15",
+        "character_name": "Mai Zenin",
+        "episode_name": "Kyoto Sister School Exchange Event - Group Battle 1"
+    },
+    {
+        "character_id": "01889e24-babb-7dde-9dd5-1v3de8a9b47f",
+        "episode_id": "01889e25-bac0-7dde-8dd6-8f3de8a9a11d",
+        "episode_code": "S01E16",
+        "character_name": "Mai Zenin",
+        "episode_name": "Kyoto Sister School Exchange Event - Group Battle 2"
+    },
+    {
+        "character_id": "01889e24-babb-7dde-9dd5-1v3de8a9b47f",
+        "episode_id": "01889e25-bacb-7dde-8dd6-8f3de8a9a22d",
+        "episode_code": "S02E03",
+        "character_name": "Mai Zenin",
+        "episode_name": "Shibuya Incident"
+    },
+    {
+        "character_id": "01889e24-babc-7dde-9dd5-1w3de8a9b47f",
+        "episode_id": "01889e25-bac7-7dde-8dd6-8f3de8a9a18e",
+        "episode_code": "S01E23",
+        "character_name": "Suguru Geto",
+        "episode_name": "The Origin of Blind Obedience 2"
+    },
+    {
+        "character_id": "01889e24-babc-7dde-9dd5-1w3de8a9b47f",
+        "episode_id": "01889e25-bacc-7dde-8dd6-8f3de8a9a23e",
+        "episode_code": "S02E04",
+        "character_name": "Suguru Geto",
+        "episode_name": "Shibuya Incident - Part 2"
+    },
+    {
+        "character_id": "01889e24-babe-7dde-9dd5-1y3de8a9b47f",
+        "episode_id": "01889e25-bac1-7dde-8dd6-8f3de8a9a12e",
+        "episode_code": "S01E17",
+        "character_name": "Esou",
+        "episode_name": "Kyoto Sister School Exchange Event - Group Battle 3"
+    },
+    {
+        "character_id": "01889e24-babe-7dde-9dd5-1y3de8a9b47f",
+        "episode_id": "01889e25-bac2-7dde-8dd6-8f3de8a9a13f",
+        "episode_code": "S01E18",
+        "character_name": "Esou",
+        "episode_name": "Sage"
+    },
+    {
+        "character_id": "01889e24-babe-7dde-9dd5-1y3de8a9b47f",
+        "episode_id": "01889e25-bac6-7dde-8dd6-8f3de8a9a17d",
+        "episode_code": "S01E22",
+        "character_name": "Esou",
+        "episode_name": "The Origin of Blind Obedience"
+    }
+]

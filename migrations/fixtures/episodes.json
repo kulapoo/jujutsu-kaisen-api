@@ -1,0 +1,214 @@
+{
+  "episodes": [
+    {
+      "id": "01889e25-baa1-7dde-8dd6-8f3de8a9a86a",
+      "name": "Ryomen Sukuna",
+      "air_date": "2020-10-03",
+      "episode_code": "S01E01",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baa2-7dde-8dd6-8f3de8a9a87b",
+      "name": "For Myself",
+      "air_date": "2020-10-10",
+      "episode_code": "S01E02",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baa3-7dde-8dd6-8f3de8a9a88c",
+      "name": "Girl of Steel",
+      "air_date": "2020-10-17",
+      "episode_code": "S01E03",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baa4-7dde-8dd6-8f3de8a9a89d",
+      "name": "Cursed Womb Must Die",
+      "air_date": "2020-10-24",
+      "episode_code": "S01E04",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baa5-7dde-8dd6-8f3de8a9a90e",
+      "name": "Cursed Womb Must Die -II-",
+      "air_date": "2020-10-31",
+      "episode_code": "S01E05",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baa6-7dde-8dd6-8f3de8a9a91f",
+      "name": "After Rain",
+      "air_date": "2020-11-07",
+      "episode_code": "S01E06",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baa7-7dde-8dd6-8f3de8a9a92a",
+      "name": "Assault",
+      "air_date": "2020-11-14",
+      "episode_code": "S01E07",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baa8-7dde-8dd6-8f3de8a9a93b",
+      "name": "Boredom",
+      "air_date": "2020-11-21",
+      "episode_code": "S01E08",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baa9-7dde-8dd6-8f3de8a9a94c",
+      "name": "Small Fry and Reverse Retribution",
+      "air_date": "2020-11-28",
+      "episode_code": "S01E09",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baaa-7dde-8dd6-8f3de8a9a95d",
+      "name": "Idle Transfiguration",
+      "air_date": "2020-12-05",
+      "episode_code": "S01E10",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-babb-7dde-8dd6-8f3de8a9a96e",
+      "name": "Narrow-minded",
+      "air_date": "2020-12-12",
+      "episode_code": "S01E11",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-babc-7dde-8dd6-8f3de8a9a97f",
+      "name": "To You, Someday",
+      "air_date": "2020-12-19",
+      "episode_code": "S01E12",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-babd-7dde-8dd6-8f3de8a9a98a",
+      "name": "Tomorrow",
+      "air_date": "2020-12-26",
+      "episode_code": "S01E13",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-babe-7dde-8dd6-8f3de8a9a99b",
+      "name": "Kyoto Sister School Exchange Event - Group Battle 0",
+      "air_date": "2021-01-09",
+      "episode_code": "S01E14",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-babf-7dde-8dd6-8f3de8a9a10c",
+      "name": "Kyoto Sister School Exchange Event - Group Battle 1",
+      "air_date": "2021-01-16",
+      "episode_code": "S01E15",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac0-7dde-8dd6-8f3de8a9a11d",
+      "name": "Kyoto Sister School Exchange Event - Group Battle 2",
+      "air_date": "2021-01-23",
+      "episode_code": "S01E16",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac1-7dde-8dd6-8f3de8a9a12e",
+      "name": "Kyoto Sister School Exchange Event - Group Battle 3",
+      "air_date": "2021-01-30",
+      "episode_code": "S01E17",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac2-7dde-8dd6-8f3de8a9a13f",
+      "name": "Sage",
+      "air_date": "2021-02-06",
+      "episode_code": "S01E18",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac3-7dde-8dd6-8f3de8a9a14a",
+      "name": "Black Flash",
+      "air_date": "2021-02-13",
+      "episode_code": "S01E19",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac4-7dde-8dd6-8f3de8a9a15b",
+      "name": "Nonstandard",
+      "air_date": "2021-02-20",
+      "episode_code": "S01E20",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac5-7dde-8dd6-8f3de8a9a16c",
+      "name": "Jujutsu Koshien",
+      "air_date": "2021-02-27",
+      "episode_code": "S01E21",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac6-7dde-8dd6-8f3de8a9a17d",
+      "name": "The Origin of Blind Obedience",
+      "air_date": "2021-03-06",
+      "episode_code": "S01E22",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac7-7dde-8dd6-8f3de8a9a18e",
+      "name": "The Origin of Blind Obedience 2",
+      "air_date": "2021-03-13",
+      "episode_code": "S01E23",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac8-7dde-8dd6-8f3de8a9a19a",
+      "name": "Accomplices",
+      "air_date": "2021-03-20",
+      "episode_code": "S01E24",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bac9-7dde-8dd6-8f3de8a9a20b",
+      "name": "Itadori's Extermination Mission",
+      "air_date": "2021-09-10",
+      "episode_code": "S02E01",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-baca-7dde-8dd6-8f3de8a9a21c",
+      "name": "Shadow of the Nation",
+      "air_date": "2021-09-17",
+      "episode_code": "S02E02",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bacb-7dde-8dd6-8f3de8a9a22d",
+      "name": "Shibuya Incident",
+      "air_date": "2021-09-24",
+      "episode_code": "S02E03",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bacc-7dde-8dd6-8f3de8a9a23e",
+      "name": "Shibuya Incident - Part 2",
+      "air_date": "2021-10-01",
+      "episode_code": "S02E04",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bacd-7dde-8dd6-8f3de8a9a24f",
+      "name": "Ruptured Reality",
+      "air_date": "2021-10-08",
+      "episode_code": "S02E05",
+      "created_at": "2023-10-04T00:00:00"
+    },
+    {
+      "id": "01889e25-bace-7dde-8dd6-8f3de8a9a25a",
+      "name": "Yuji's Betrayal",
+      "air_date": "2021-10-15",
+      "episode_code": "S02E06",
+      "created_at": "2023-10-04T00:00:00"
+    }
+  ]
+}

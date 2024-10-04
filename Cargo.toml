@@ -11,12 +11,13 @@ path = "src/main.rs"
 name = "jjk-api"
 
 [dependencies]
-serde = { version = "1.0.163", features = ["derive"] }
-serde_json = "1.0.96"
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+serde-aux = "4"
 actix-web = "4.9.0"
-tokio = { version = "1.34.0", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.40.0", features = ["macros", "rt-multi-thread"] }
 config = { version = "0.14.0", default-features = false, features = ["json"] }
-sqlx = { version = "0.7.2", default-features = false, features = [
+sqlx = { version = "0.8.2", default-features = false, features = [
     "runtime-tokio-rustls",
     "macros",
     "postgres",
@@ -24,10 +25,10 @@ sqlx = { version = "0.7.2", default-features = false, features = [
     "chrono",
     "migrate",
 ] }
-uuid = { version = "1.4.1", features = ["v4"] }
-chrono = { version = "0.4.26", default-features = false, features = ["clock"] }
-secrecy = { version = "0.8", features = ["serde"] }
+uuid = { version = "1.10.0", features = ["v4"] }
+chrono = { version = "0.4.38", default-features = false, features = ["clock"] }
+secrecy = { version = "0.10.2", features = ["serde"] }
 
 [dev-dependencies]
 wiremock = "0.6.2"
-reqwest = { version = "0.12.7", default-features = false, features = ["json", "rustls-tls", "cookies"] }
+reqwest = { version = "0.12.8", default-features = false, features = ["json", "rustls-tls", "cookies"] }

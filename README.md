@@ -39,7 +39,7 @@ You can install all the required development tools by running the provided insta
 - [sqlx-cli](https://crates.io/crates/sqlx-cli)
 - [cargo-audit](https://crates.io/crates/cargo-audit)
 - [cargo-tarpaulin](https://crates.io/crates/cargo-tarpaulin)
-- [pre-commit](https://pre-commit.com/)
+- [pre-commit](https://pre-commit.com/) - please follow the instructions and set update `.git/hooks/pre-commit` accordingly if needed
 
 
 # Development
