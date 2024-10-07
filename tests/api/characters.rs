@@ -11,18 +11,18 @@ async fn characters_return_200() {
 	assert_eq!(200, response.status().as_u16());
 }
 
-// #[tokio::test]
-// async fn character_by_id_returns_200() {
-// 	// Arrange
-// 	let app = spawn_app().await;
-// 	let character_id = 1; // Assuming character with ID 1 exists
+#[tokio::test]
+async fn character_by_id_returns_200() {
+	// Arrange
+	let app = spawn_app().await;
+	let character_id = uuid::uuid!("863874e7-bb2b-433e-b2a5-dc408ccdafcc"); // Satoru Gojo's ID
 
-// 	// Act
-// 	let response = app.get_character_by_id(character_id).await;
+	// Act
+	let response = app.get_character_by_id(character_id).await;
 
-// 	// Assert
-// 	assert_eq!(200, response.status().as_u16());
-// }
+	// Assert
+	assert_eq!(200, response.status().as_u16());
+}
 
 // #[tokio::test]
 // async fn character_by_id_returns_404_for_nonexistent_character() {

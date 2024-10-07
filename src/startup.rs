@@ -60,6 +60,7 @@ async fn run(
 			// .wrap(TracingLogger::default())
 			.route("/health-check", web::get().to(health_check))
 			.route("/characters", web::get().to(characters::list))
+            .route("/characters/{id}", web::get().to(characters::find_by_id))
 			.app_data(db_pool.clone())
 			.app_data(base_url.clone())
 			.app_data(Data::new(HmacSecret(hmac_secret.clone())))
