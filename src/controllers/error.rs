@@ -24,3 +24,11 @@ where
     println!("400: {:#?}", e);
     actix_web::error::ErrorBadRequest(e)
 }
+
+
+pub fn response_error(e: sqlx::Error) -> actix_web::Error{
+    match e {
+        sqlx::Error::RowNotFound => e400(e),
+        _ => e500(e),
+    }
+}
