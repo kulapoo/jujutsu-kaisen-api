@@ -24,18 +24,18 @@ async fn character_by_id_returns_200() {
 	assert_eq!(200, response.status().as_u16());
 }
 
-// #[tokio::test]
-// async fn character_by_id_returns_404_for_nonexistent_character() {
-// 	// Arrange
-// 	let app = spawn_app().await;
-// 	let nonexistent_character_id = 9999; // Assuming this ID does not exist
+#[tokio::test]
+async fn character_by_id_returns_404_for_nonexistent_character() {
+	// Arrange
+	let app = spawn_app().await;
+	let nonexistent_character_id = uuid::Uuid::new_v4(); // Assuming this ID does not exist
 
-// 	// Act
-// 	let response = app.get_character_by_id(nonexistent_character_id).await;
+	// Act
+	let response = app.get_character_by_id(nonexistent_character_id).await;
 
-// 	// Assert
-// 	assert_eq!(404, response.status().as_u16());
-// }
+	// Assert
+	assert_eq!(404, response.status().as_u16());
+}
 
 // #[tokio::test]
 // async fn characters_search_returns_200() {
