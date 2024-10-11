@@ -6,6 +6,7 @@ mod core;
 
 pub mod configuration;
 pub mod startup;
+pub mod telemetry;
 
 pub use core::error::Error;
 

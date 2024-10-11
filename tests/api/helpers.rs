@@ -1,9 +1,24 @@
 use jjk_api::configuration::{get_configuration, DatabaseSettings};
 use jjk_api::startup::{get_connection_pool, Application};
+use jjk_api::telemetry::{get_subscriber, init_subscriber};
+use once_cell::sync::Lazy;
 use secrecy::SecretString;
 use sqlx::{Connection, Executor, PgConnection, PgPool};
 // use std::sync::LazyLock;
 use uuid::Uuid;
+
+static TRACING: Lazy<()> = Lazy::new(|| {
+    let default_filter_level = "info".to_string();
+    let subscriber_name = "test".to_string();
+    if std::env::var("TEST_LOG").is_ok() {
+        let subscriber = get_subscriber(subscriber_name, default_filter_level, std::io::stdout);
+        init_subscriber(subscriber);
+    } else {
+        let subscriber = get_subscriber(subscriber_name, default_filter_level, std::io::sink);
+        init_subscriber(subscriber);
+    };
+});
+
 
 pub struct TestApp {
 	pub address: String,
@@ -30,6 +45,8 @@ impl TestApp {
 }
 
 pub async fn spawn_app() -> TestApp {
+    Lazy::force(&TRACING);
+
 	let configuration = {
 		let mut c = get_configuration().expect("Failed to read configuration.");
 		// Use a different database for each test case
