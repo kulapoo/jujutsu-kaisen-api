@@ -4,6 +4,7 @@ use actix_web::{web, App, HttpServer};
 use secrecy::SecretString;
 use sqlx::postgres::PgPoolOptions;
 use sqlx::PgPool;
+use tracing_actix_web::TracingLogger;
 use std::net::TcpListener;
 
 use crate::configuration::{DatabaseSettings, Settings};
@@ -56,8 +57,7 @@ async fn run(
 	let base_url = Data::new(ApplicationBaseUrl(base_url));
 	let server = HttpServer::new(move || {
 		App::new()
-			// .wrap(message_framework.clone())
-			// .wrap(TracingLogger::default())
+			.wrap(TracingLogger::default())
 			.route("/health-check", web::get().to(health_check))
 			.route("/characters", web::get().to(characters::list))
             .route("/characters/{id}", web::get().to(characters::find_by_id))

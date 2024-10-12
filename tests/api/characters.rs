@@ -6,7 +6,7 @@ async fn characters_return_200() {
 	let app = spawn_app().await;
 
 	// Act
-	let response = app.get_characters().await;
+	let response = app.get_characters(None).await;
 	// Assert
 	assert_eq!(200, response.status().as_u16());
 }

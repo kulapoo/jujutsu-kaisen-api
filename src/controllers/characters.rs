@@ -15,7 +15,7 @@ pub async fn list(
     pool: web::Data<PgPool>,
     web::Query(pagination): web::Query<Pagination>,
 ) -> Result<HttpResponse, actix_web::Error> {
-    // todo: add logging
+
     repositories::characters::list(&pool, pagination)
         .await
         .map(|characters| HttpResponse::Ok().json(characters))

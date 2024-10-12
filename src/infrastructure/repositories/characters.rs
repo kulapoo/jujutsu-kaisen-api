@@ -11,7 +11,9 @@ use crate::{character::Character, pagination::Pagination};
     skip(pool)
 )]
 pub async fn list(pool: &PgPool, pagination: Pagination) -> Result<Vec<Character>, sqlx::Error> {
-    let offset = (pagination.page - 1) * pagination.limit;
+    let page = pagination.page.unwrap_or(Pagination::DEFAULT_PAGE);
+    let limit = pagination.limit.unwrap_or(Pagination::DEFAULT_LIMIT);
+    let offset = (page - 1) * limit;
 
     let rows = sqlx::query_as::<_, Character>(
         r#"
@@ -21,7 +23,7 @@ pub async fn list(pool: &PgPool, pagination: Pagination) -> Result<Vec<Character
         LIMIT $1 OFFSET $2
         "#
     )
-    .bind(pagination.limit)
+    .bind(limit)
     .bind(offset)
     .fetch_all(pool)
     .await?;

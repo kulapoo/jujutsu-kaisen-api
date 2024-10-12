@@ -1,4 +1,5 @@
 use jjk_api::configuration::{get_configuration, DatabaseSettings};
+use jjk_api::pagination::Pagination;
 use jjk_api::startup::{get_connection_pool, Application};
 use jjk_api::telemetry::{get_subscriber, init_subscriber};
 use once_cell::sync::Lazy;
@@ -27,9 +28,13 @@ pub struct TestApp {
 	pub api_client: reqwest::Client,
 }
 impl TestApp {
-	pub async fn get_characters(&self) -> reqwest::Response {
+	pub async fn get_characters(&self, pagination: Option<Pagination>) -> reqwest::Response {
+        let (page, limit) = pagination.map_or((1, 10), |p| {
+            (p.page.unwrap_or(1), p.limit.unwrap_or(10))
+        });
+
 		self.api_client
-			.get(&format!("{}/characters?page=1&limit=10", &self.address))
+			.get(&format!("{}/characters?page={}&limit={}", &self.address, page, limit))
 			.send()
 			.await
 			.expect("Failed to execute request.")
