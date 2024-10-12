@@ -6,6 +6,10 @@ use sqlx::PgPool;
 
 use crate::{character::Character, pagination::Pagination};
 
+#[tracing::instrument(
+    name = "Get list of characters from the database",
+    skip(pool)
+)]
 pub async fn list(pool: &PgPool, pagination: Pagination) -> Result<Vec<Character>, sqlx::Error> {
     let offset = (pagination.page - 1) * pagination.limit;
 
@@ -25,6 +29,11 @@ pub async fn list(pool: &PgPool, pagination: Pagination) -> Result<Vec<Character
     Ok(rows)
 }
 
+
+#[tracing::instrument(
+    name = "Get a character from the database",
+    skip(pool)
+)]
 pub async fn find_by_id(pool: &PgPool, id: uuid::Uuid) -> Result<Option<Character>, sqlx::Error> {
     let row = sqlx::query_as::<_, Character>(
         r#"

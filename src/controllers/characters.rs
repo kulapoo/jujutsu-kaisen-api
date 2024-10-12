@@ -6,6 +6,11 @@ use uuid::Uuid;
 use crate::{repositories, pagination::Pagination};
 use super::error::response_error;
 
+
+#[tracing::instrument(
+    name = "List all characters",
+    skip(pool)
+)]
 pub async fn list(
     pool: web::Data<PgPool>,
     web::Query(pagination): web::Query<Pagination>,
@@ -17,6 +22,11 @@ pub async fn list(
         .map_err(response_error)
 }
 
+
+#[tracing::instrument(
+    name = "Get a character by id",
+    skip(pool)
+)]
 pub async fn find_by_id(
     pool: web::Data<PgPool>,
     id: web::Path<Uuid>,
