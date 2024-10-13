@@ -9,4 +9,5 @@ pub struct Pagination {
 impl Pagination {
     pub const DEFAULT_LIMIT: i64 = 10;
     pub const DEFAULT_PAGE: i64 = 1;
+
 }
