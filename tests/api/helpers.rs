@@ -59,6 +59,14 @@ impl TestApp {
             .await
             .expect("Failed to execute request.")
     }
+
+    pub async fn get_episode_by_id(&self, id: Uuid) -> reqwest::Response {
+        self.api_client
+            .get(&format!("{}/episodes/{}", &self.address, id))
+            .send()
+            .await
+            .expect("Failed to execute request.")
+    }
 }
 
 pub async fn spawn_app() -> TestApp {

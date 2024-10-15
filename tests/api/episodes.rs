@@ -13,18 +13,18 @@ async fn episodes_return_200() {
 }
 
 
-// #[tokio::test]
-// async fn episode_by_id_returns_200() {
-//     // Arrange
-//     let app = spawn_app().await;
-//     let episode_id = uuid::uuid!("863874e7-bb2b-433e-b2a5-dc408ccdafcc"); // Satoru Gojo's ID
+#[tokio::test]
+async fn episode_by_id_returns_200() {
+    // Arrange
+    let app = spawn_app().await;
+    let episode_id = uuid::uuid!("25f1f871-6cfa-478f-9745-45eac19fc616"); // 'For Myself', '2020-10-10', 'S01E02'
 
-//     // Act
-//     let response = app.get_episode_by_id(episode_id).await;
+    // Act
+    let response = app.get_episode_by_id(episode_id).await;
 
-//     // Assert
-//     assert_eq!(200, response.status().as_u16());
-// }
+    // Assert
+    assert_eq!(200, response.status().as_u16());
+}
 
 // #[tokio::test]
 // async fn episode_by_id_returns_404_for_nonexistent_episode() {
