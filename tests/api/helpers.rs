@@ -67,6 +67,26 @@ impl TestApp {
             .await
             .expect("Failed to execute request.")
     }
+
+    pub async fn get_locations(&self, pagination: Option<Pagination>) -> reqwest::Response {
+        let (page, limit) = pagination.map_or((1, 10), |p| {
+            (p.page.unwrap_or(1), p.limit.unwrap_or(10))
+        });
+
+        self.api_client
+            .get(&format!("{}/locations?page={}&limit={}", &self.address, page, limit))
+            .send()
+            .await
+            .expect("Failed to execute request.")
+    }
+
+    pub async fn get_location_by_id(&self, id: Uuid) -> reqwest::Response {
+        self.api_client
+            .get(&format!("{}/locations/{}", &self.address, id))
+            .send()
+            .await
+            .expect("Failed to execute request.")
+    }
 }
 
 pub async fn spawn_app() -> TestApp {

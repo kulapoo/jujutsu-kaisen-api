@@ -8,7 +8,7 @@ use tracing_actix_web::TracingLogger;
 use std::net::TcpListener;
 
 use crate::configuration::{DatabaseSettings, Settings};
-use crate::controllers::{characters, episodes, health_check};
+use crate::controllers::{characters, episodes, locations, health_check};
 pub struct Application {
 	port: u16,
 	server: Server,
@@ -63,6 +63,8 @@ async fn run(
             .route("/characters/{id}", web::get().to(characters::find_by_id))
             .route("/episodes", web::get().to(episodes::list))
             .route("/episodes/{id}", web::get().to(episodes::find_by_id))
+            .route("/locations", web::get().to(locations::list))
+            .route("/locations/{id}", web::get().to(locations::find_by_id))
 			.app_data(db_pool.clone())
 			.app_data(base_url.clone())
 			.app_data(Data::new(HmacSecret(hmac_secret.clone())))
