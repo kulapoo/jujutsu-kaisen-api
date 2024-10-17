@@ -48,6 +48,22 @@ impl TestApp {
             .expect("Failed to execute request.")
     }
 
+    pub async fn get_character_episodes(&self, id: Uuid) -> reqwest::Response {
+        self.api_client
+            .get(&format!("{}/characters/{}/episodes", &self.address, id))
+            .send()
+            .await
+            .expect("Failed to execute request.")
+    }
+
+    pub async fn get_character_locations(&self, id: Uuid) -> reqwest::Response {
+        self.api_client
+            .get(&format!("{}/characters/{}/locations", &self.address, id))
+            .send()
+            .await
+            .expect("Failed to execute request.")
+    }
+
     pub async fn get_episodes(&self, pagination: Option<Pagination>) -> reqwest::Response {
         let (page, limit) = pagination.map_or((1, 10), |p| {
             (p.page.unwrap_or(1), p.limit.unwrap_or(10))

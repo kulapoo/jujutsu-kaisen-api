@@ -7,6 +7,8 @@ use crate::{repositories, pagination::Pagination};
 use super::error::response_error;
 
 
+
+
 #[tracing::instrument(
     name = "List all characters",
     skip(pool)
@@ -41,5 +43,35 @@ pub async fn find_by_id(
                 .map(|character| HttpResponse::Ok().json(character))
                 .unwrap_or_else(|| HttpResponse::NotFound().finish())
         })
+        .map_err(response_error)
+}
+
+#[tracing::instrument(
+    name = "List all character episodes",
+    skip(pool)
+)]
+pub async fn list_episodes(
+    pool: web::Data<PgPool>,
+    id: web::Path<Uuid>,
+) -> Result<HttpResponse, actix_web::Error> {
+
+    repositories::characters::list_character_episodes(&pool, id.into_inner())
+        .await
+        .map(|character_episodes| HttpResponse::Ok().json(character_episodes))
+        .map_err(response_error)
+}
+
+#[tracing::instrument(
+    name = "List all character locations",
+    skip(pool)
+)]
+pub async fn list_locations(
+    pool: web::Data<PgPool>,
+    id: web::Path<Uuid>,
+) -> Result<HttpResponse, actix_web::Error> {
+
+    repositories::characters::list_character_locations(&pool, id.into_inner())
+        .await
+        .map(|character_locations| HttpResponse::Ok().json(character_locations))
         .map_err(response_error)
 }

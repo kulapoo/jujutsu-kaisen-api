@@ -4,7 +4,7 @@
 
 use sqlx::PgPool;
 
-use crate::{character::Character, pagination::Pagination};
+use crate::{character::{Character, CharacterEpisode}, pagination::Pagination};
 
 #[tracing::instrument(
     name = "Get list of characters from the database",
@@ -49,4 +49,45 @@ pub async fn find_by_id(pool: &PgPool, id: uuid::Uuid) -> Result<Option<Characte
     .await?;
 
     Ok(row)
+}
+
+#[tracing::instrument(
+    name = "Get list of character episodes from the database",
+    skip(pool)
+)]
+pub async fn list_character_episodes(pool: &PgPool, id: uuid::Uuid) -> Result<Vec<CharacterEpisode>, sqlx::Error> {
+    let rows = sqlx::query_as::<_, CharacterEpisode>(
+        r#"
+        SELECT character_id, episode_id, episode_code, character_name, episode_name
+        FROM character_episodes
+        WHERE character_id = $1
+        "#
+    )
+    .bind(id)
+    .fetch_all(pool)
+    .await?;
+
+
+
+    Ok(rows)
+}
+
+
+#[tracing::instrument(
+    name = "Get list of character locations from the database",
+    skip(pool)
+)]
+pub async fn list_character_locations(pool: &PgPool, id: uuid::Uuid) -> Result<Vec<CharacterEpisode>, sqlx::Error> {
+    let rows = sqlx::query_as::<_, CharacterEpisode>(
+        r#"
+        SELECT character_id, location_id, character_name, location_name
+        FROM character_locations
+        WHERE character_id = $1
+        "#
+    )
+    .bind(id)
+    .fetch_all(pool)
+    .await?;
+
+    Ok(rows)
 }

@@ -61,6 +61,8 @@ async fn run(
 			.route("/health-check", web::get().to(health_check))
 			.route("/characters", web::get().to(characters::list))
             .route("/characters/{id}", web::get().to(characters::find_by_id))
+            .route("/characters/{id}/episodes", web::get().to(characters::list_episodes))
+            .route("/characters/{id}/locations", web::get().to(characters::list_locations))
             .route("/episodes", web::get().to(episodes::list))
             .route("/episodes/{id}", web::get().to(episodes::find_by_id))
             .route("/locations", web::get().to(locations::list))

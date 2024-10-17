@@ -37,15 +37,28 @@ async fn character_by_id_returns_404_for_nonexistent_character() {
 	assert_eq!(404, response.status().as_u16());
 }
 
-// #[tokio::test]
-// async fn characters_search_returns_200() {
-// 	// Arrange
-// 	let app = spawn_app().await;
-// 	let search_query = "Gojo"; // Assuming "Gojo" is a valid search term
+#[tokio::test]
+async fn character_by_episode_returns_200() {
+    // Arrange
+    let app = spawn_app().await;
+    let character_id = uuid::uuid!("863874e7-bb2b-433e-b2a5-dc408ccdafcc"); // Satoru Gojo's ID
 
-// 	// Act
-// 	let response = app.search_characters(search_query).await;
+    // Act
+    let response = app.get_character_episodes(character_id).await;
 
-// 	// Assert
-// 	assert_eq!(200, response.status().as_u16());
-// }
+    // Assert
+    assert_eq!(200, response.status().as_u16());
+}
+
+#[tokio::test]
+async fn character_by_location_returns_200() {
+    // Arrange
+    let app = spawn_app().await;
+    let character_id = uuid::uuid!("863874e7-bb2b-433e-b2a5-dc408ccdafcc"); // Satoru Gojo's ID
+
+    // Act
+    let response = app.get_character_locations(character_id).await;
+
+    // Assert
+    assert_eq!(200, response.status().as_u16());
+}
